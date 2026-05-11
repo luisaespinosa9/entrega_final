@@ -1,0 +1,41 @@
+@media (max-width: 900px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+  }
+
+  .topics {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  nav {
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .topics {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding-top: 3rem;
+  }
+
+}
+.hero-image img {
+
+  width: 100%;
+
+  max-width: 500px;
+
+  transform: none;
+
+}

@@ -1,0 +1,54 @@
+.page-hero {
+
+  min-height: 70vh;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  padding: 5% 8%;
+
+}
+
+.page-text h1 {
+
+  font-size: 5rem;
+  margin-bottom: 1rem;
+
+}
+
+.page-text p {
+
+  font-size: 1.2rem;
+  max-width: 500px;
+
+}
+
+.page-image img {
+
+  width: 100%;
+  max-width: 500px;
+
+}
+
+.content-placeholder {
+
+  padding: 5% 8%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 2rem;
+
+}
+
+.placeholder-box {
+
+  height: 300px;
+
+  background: white;
+
+  border-radius: 30px;
+
+}

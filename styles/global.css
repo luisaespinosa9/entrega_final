@@ -1,0 +1,32 @@
+/* TIPOGRAFÍAS */
+
+@font-face {
+  font-family: "MiFuente";
+  src: url("../assets/fonts/TuFuente-Regular.ttf");
+}
+
+:root {
+  --cream: #f8f4ec;
+  --pink: #f7c6d9;
+  --orange: #f4a261;
+  --yellow: #f6d365;
+  --green: #9cc9b8;
+  --blue: #8ecae6;
+  --text: #4b3f3f;
+}
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+
+body {
+  font-family: "MiFuente", sans-serif;
+  background: var(--cream);
+  color: var(--text);
+}

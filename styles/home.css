@@ -1,0 +1,130 @@
+.navbar {
+  width: 100%;
+  padding: 1.5rem 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--orange);
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.hero {
+
+  min-height: 100vh;
+
+  display: grid;
+
+  grid-template-columns: 45% 55%;
+
+  align-items: center;
+
+  padding: 3% 8%;
+
+  overflow: hidden;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.hero-text span {
+  color: var(--orange);
+}
+
+.hero-text p {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+  max-width: 500px;
+}
+
+.hero button {
+  padding: 1rem 2rem;
+
+  border: none;
+  border-radius: 50px;
+
+  background: var(--orange);
+  color: white;
+
+  font-size: 1rem;
+
+  cursor: pointer;
+}
+
+.hero-image {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-image img {
+
+  width: 120%;
+
+  max-width: 850px;
+
+  transform: translateX(40px);
+
+}
+
+.topics {
+  padding: 5% 8%;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 30px;
+
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.hero-image {
+  position: relative;
+}
+
+.hero-image::before {
+
+  content: "";
+
+  position: absolute;
+
+  width: 600px;
+  height: 600px;
+
+  background: var(--mint);
+
+  border-radius: 50%;
+
+  z-index: -1;
+
+  opacity: 0.5;
+
+}
