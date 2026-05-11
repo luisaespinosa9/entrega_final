@@ -1,16 +1,46 @@
 .navbar {
+
   width: 100%;
-  padding: 1.5rem 8%;
+
+  padding: 0.5rem 6%;
+
   display: flex;
+
   justify-content: space-between;
+
   align-items: center;
-  background: white;
+
+  background: rgba(255,255,255,0.85);
+
+  backdrop-filter: blur(10px);
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 1000;
 }
 
 .logo {
-  font-size: 2rem;
-  font-weight: bold;
-  color: var(--orange);
+
+  height: 60px;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.logo img {
+
+  height: 190px;
+
+  width: auto;
+
+  object-fit: contain;
+
+  display: block;
+
 }
 
 nav {
