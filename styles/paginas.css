@@ -477,20 +477,6 @@
 
 }
 
-.floating-visual {
-
-  padding: 2% 8% 4% 8%;
-
-  display: grid;
-
-  grid-template-columns: 45% 55%;
-
-  gap: 3rem;
-
-  align-items: center;
-
-}
-
 .visual-text h2 {
 
   font-size: 3.5rem;
@@ -513,15 +499,6 @@
 
 }
 
-.visual-image img {
-
-  width: 100%;
-
-  border-radius: 40px;
-
-  object-fit: cover;
-
-}
 
 .emotion-page {
 
@@ -1242,22 +1219,65 @@
   border-radius: 40px;
 
 }
+.floating-visual {
 
-.visual-text {
+  padding: 2% 8% 4% 8%;
 
-  position: absolute;
+  display: grid;
 
-  bottom: -40px;
+  grid-template-columns: 1.2fr 0.8fr;
 
-  right: 0;
+  align-items: end;
 
-  background: white;
+}
 
-  padding: 3rem;
+.visual-image img {
+
+  width: 100%;
 
   border-radius: 40px;
 
+  display: block;
+
+}
+
+.visual-text {
+
+  background: white;
+
+  padding: 2.5rem;
+
+  border-radius: 35px;
+
+  margin-left: -100px;
+
+  margin-bottom: -40px;
+
+  position: relative;
+
+  z-index: 2;
+
   max-width: 450px;
+
+}
+
+.visual-text h2 {
+
+  font-size: 3.5rem;
+
+  line-height: 1.1;
+
+  color: var(--orange);
+
+  margin-bottom: 1.5rem;
+
+}
+
+.visual-text p {
+
+  line-height: 1.8;
+
+  font-size: 1.1rem;
 
 }
 
