@@ -127,3 +127,96 @@
   }
 
 }
+
+@media (max-width: 900px) {
+
+  .emotion-content h1,
+  .emotion-center h2,
+  .emotion-question h2,
+  .soft-ending h2 {
+
+    font-size: 3rem;
+
+  }
+
+  .emotion-cards {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .floating-thoughts {
+
+    height: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1rem;
+
+    padding: 0 8%;
+
+  }
+
+  .thought {
+
+    position: static;
+
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .consent-hero,
+  .consent-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .consent-text h1,
+  .safe-quote h2,
+  .consent-question h2,
+  .consent-ending h2 {
+
+    font-size: 3rem;
+
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .relations-text h1,
+  .relation-quote h2,
+  .relations-ending h2 {
+
+    font-size: 3rem;
+
+  }
+
+  .relationship-collage {
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .visual-content img {
+
+    width: 100%;
+
+  }
+
+  .visual-text {
+
+    position: static;
+
+    margin-top: 1rem;
+
+    max-width: 100%;
+
+  }
+
+}

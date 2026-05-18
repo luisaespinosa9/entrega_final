@@ -753,9 +753,15 @@
 
 .visual-box img {
 
-  width: 100%;
+  width: 60%;
+
+  max-width: 500px;
 
   border-radius: 30px;
+
+  display: block;
+
+  margin: auto;
 
 }
 
@@ -782,5 +788,501 @@
   max-width: 700px;
 
   color: #3d5cff;
+
+}
+
+.consent-page {
+
+  background: #f2f8f1;
+
+}
+
+.consent-hero {
+
+  min-height: 80vh;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  align-items: center;
+
+  gap: 4rem;
+
+  padding: 4% 8%;
+
+}
+
+.consent-text span {
+
+  text-transform: uppercase;
+
+  letter-spacing: 3px;
+
+  color: var(--green);
+
+}
+
+.consent-text h1 {
+
+  font-size: 5.5rem;
+
+  line-height: 0.95;
+
+  margin: 1rem 0;
+
+  color: #4f8a68;
+
+}
+
+.consent-text p {
+
+  max-width: 550px;
+
+  line-height: 1.9;
+
+  font-size: 1.1rem;
+
+}
+
+.consent-image img {
+
+  width: 100%;
+
+  max-width: 700px;
+
+}
+
+.safe-quote {
+
+  padding: 5% 8%;
+
+}
+
+.safe-quote h2 {
+
+  font-size: 4rem;
+
+  line-height: 1.1;
+
+  max-width: 900px;
+
+  color: #4f8a68;
+
+}
+
+.consent-grid {
+
+  padding: 0 8% 8% 8%;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2rem;
+
+  align-items: start;
+
+}
+
+.consent-box {
+
+  background: white;
+
+  border-radius: 40px;
+
+  padding: 3rem;
+
+}
+
+.consent-box h3 {
+
+  font-size: 2rem;
+
+  line-height: 1.1;
+
+  margin-bottom: 1rem;
+
+  color: #4f8a68;
+
+}
+
+.consent-box p {
+
+  line-height: 1.8;
+
+}
+
+.image-box {
+
+  padding: 0;
+
+  overflow: hidden;
+
+}
+
+.image-box img {
+
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
+}
+
+.small-box {
+
+  height: 350px;
+
+}
+
+.situations {
+
+  padding: 0 8% 10% 8%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+}
+
+.situation-card {
+
+  background: white;
+
+  padding: 1.2rem 2rem;
+
+  border-radius: 100px;
+
+}
+
+.situation-card p {
+
+  font-size: 1rem;
+
+}
+
+.consent-question {
+
+  padding: 0 8% 8% 8%;
+
+}
+
+.consent-question h2 {
+
+  font-size: 4rem;
+
+  line-height: 1;
+
+  max-width: 700px;
+
+}
+
+.consent-visual {
+
+  padding: 0 8% 8% 8%;
+
+}
+
+.consent-visual img {
+
+  width: 100%;
+
+  border-radius: 40px;
+
+  margin-top: 2rem;
+
+}
+
+.consent-visual-text p {
+
+  font-size: 1.3rem;
+
+  line-height: 1.8;
+
+  max-width: 700px;
+
+}
+
+.consent-ending {
+
+  padding: 4% 8% 10% 8%;
+
+}
+
+.consent-ending h2 {
+
+  font-size: 5rem;
+
+  line-height: 1;
+
+  max-width: 900px;
+
+  color: #4f8a68;
+
+}
+
+.relations-page {
+
+  background: #fff4ed;
+
+}
+
+.relations-hero {
+
+  min-height: 75vh;
+
+  padding: 6% 8%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+.relations-text span {
+
+  text-transform: uppercase;
+
+  letter-spacing: 3px;
+
+  color: #ff7b54;
+
+}
+
+.relations-text h1 {
+
+  font-size: 6rem;
+
+  line-height: 0.95;
+
+  max-width: 850px;
+
+  margin-top: 1rem;
+
+  color: #ff7b54;
+
+}
+
+.chat-bubbles {
+
+  margin-top: 4rem;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+}
+
+.bubble {
+
+  background: white;
+
+  padding: 1rem 2rem;
+
+  border-radius: 100px;
+
+  font-size: 1rem;
+
+}
+
+.relation-quote {
+
+  padding: 0 8% 8% 8%;
+
+}
+
+.relation-quote h2 {
+
+  font-size: 4rem;
+
+  line-height: 1;
+
+  max-width: 900px;
+
+}
+
+.relationship-collage {
+
+  padding: 0 8% 10% 8%;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2rem;
+
+  align-items: center;
+
+}
+
+.collage-image img {
+
+  width: 100%;
+
+  border-radius: 40px;
+
+}
+
+.large img {
+
+  height: 550px;
+
+  object-fit: cover;
+
+}
+
+.small img {
+
+  height: 350px;
+
+  object-fit: cover;
+
+}
+
+.collage-text {
+
+  background: white;
+
+  padding: 3rem;
+
+  border-radius: 40px;
+
+}
+
+.collage-text h3 {
+
+  font-size: 2rem;
+
+  margin-bottom: 1rem;
+
+  color: #ff7b54;
+
+}
+
+.collage-text p {
+
+  line-height: 1.8;
+
+}
+
+.rotate-left {
+
+  transform: rotate(-2deg);
+
+}
+
+.rotate-right {
+
+  transform: rotate(2deg);
+
+}
+
+.message-section {
+
+  padding: 0 8% 10% 8%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 1rem;
+
+}
+
+.message {
+
+  background: white;
+
+  width: fit-content;
+
+  padding: 1rem 2rem;
+
+  border-radius: 100px;
+
+  font-size: 1.1rem;
+
+}
+
+.message:nth-child(2) {
+
+  margin-left: auto;
+
+}
+
+.message:nth-child(3) {
+
+  margin-left: 10%;
+
+}
+
+.relations-visual {
+
+  padding: 0 8% 8% 8%;
+
+}
+
+.visual-content {
+
+  position: relative;
+
+}
+
+.visual-content img {
+
+  width: 75%;
+
+  border-radius: 40px;
+
+}
+
+.visual-text {
+
+  position: absolute;
+
+  bottom: -40px;
+
+  right: 0;
+
+  background: white;
+
+  padding: 3rem;
+
+  border-radius: 40px;
+
+  max-width: 450px;
+
+}
+
+.visual-text h2 {
+
+  font-size: 2.5rem;
+
+  line-height: 1.1;
+
+}
+
+.relations-ending {
+
+  padding: 12% 8% 10% 8%;
+
+}
+
+.relations-ending h2 {
+
+  font-size: 5rem;
+
+  line-height: 1;
+
+  max-width: 800px;
+
+  color: #ff7b54;
 
 }
