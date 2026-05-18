@@ -220,3 +220,21 @@
   }
 
 }
+
+@media (max-width: 900px) {
+
+  .help-hero h1,
+  .coming-box h2,
+  .final-ending h2 {
+
+    font-size: 3rem;
+
+  }
+
+  .help-grid {
+
+    grid-template-columns: 1fr;
+
+  }
+
+}

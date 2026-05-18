@@ -1286,3 +1286,255 @@
   color: #ff7b54;
 
 }
+
+.help-page {
+
+  background: #111827;
+
+  color: white;
+
+}
+
+.dark-nav {
+
+  background: rgba(17,24,39,0.7);
+
+  backdrop-filter: blur(20px);
+
+}
+
+.dark-nav nav a {
+
+  color: white;
+
+}
+
+.help-hero {
+
+  min-height: 75vh;
+
+  padding: 10% 8%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+}
+
+.help-hero span {
+
+  text-transform: uppercase;
+
+  letter-spacing: 3px;
+
+  color: #8fa8ff;
+
+}
+
+.help-hero h1 {
+
+  font-size: 6rem;
+
+  line-height: 0.95;
+
+  max-width: 850px;
+
+  margin: 1rem 0;
+
+}
+
+.help-hero p {
+
+  max-width: 500px;
+
+  line-height: 1.9;
+
+  font-size: 1.1rem;
+
+  color: rgba(255,255,255,0.8);
+
+}
+
+.night-message {
+
+  padding: 0 8% 8% 8%;
+
+}
+
+.message-glow {
+
+  background: rgba(255,255,255,0.08);
+
+  border: 1px solid rgba(255,255,255,0.1);
+
+  padding: 3rem;
+
+  border-radius: 40px;
+
+  backdrop-filter: blur(20px);
+
+}
+
+.message-glow p {
+
+  font-size: 2rem;
+
+  line-height: 1.3;
+
+  max-width: 700px;
+
+}
+
+.help-grid {
+
+  padding: 0 8% 10% 8%;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 2rem;
+
+}
+
+.help-card {
+
+  background: rgba(255,255,255,0.06);
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  border-radius: 35px;
+
+  padding: 2.5rem;
+
+  backdrop-filter: blur(20px);
+
+}
+
+.help-card h3 {
+
+  font-size: 2rem;
+
+  margin-bottom: 1rem;
+
+}
+
+.help-card p {
+
+  line-height: 1.8;
+
+  color: rgba(255,255,255,0.8);
+
+}
+
+.help-card span {
+
+  display: block;
+
+  margin-top: 2rem;
+
+  color: #8fa8ff;
+
+}
+
+.coming-soon {
+
+  padding: 0 8% 10% 8%;
+
+}
+
+.coming-box {
+
+  background: linear-gradient(
+    135deg,
+    rgba(143,168,255,0.15),
+    rgba(255,255,255,0.05)
+  );
+
+  padding: 4rem;
+
+  border-radius: 40px;
+
+}
+
+.coming-box span {
+
+  text-transform: uppercase;
+
+  letter-spacing: 3px;
+
+  color: #8fa8ff;
+
+}
+
+.coming-box h2 {
+
+  font-size: 4rem;
+
+  line-height: 1;
+
+  max-width: 900px;
+
+  margin: 1rem 0 2rem 0;
+
+}
+
+.coming-box p {
+
+  max-width: 600px;
+
+  line-height: 1.8;
+
+  color: rgba(255,255,255,0.8);
+
+}
+
+.soft-messages {
+
+  padding: 0 8% 10% 8%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+}
+
+.soft-line {
+
+  background: rgba(255,255,255,0.08);
+
+  padding: 1rem 2rem;
+
+  border-radius: 100px;
+
+}
+
+.final-ending {
+
+  padding: 0 8% 12% 8%;
+
+}
+
+.final-ending h2 {
+
+  font-size: 5rem;
+
+  line-height: 1;
+
+  margin-bottom: 2rem;
+
+}
+
+.final-ending p {
+
+  max-width: 600px;
+
+  line-height: 1.8;
+
+  color: rgba(255,255,255,0.8);
+
+}
